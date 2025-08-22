@@ -13,9 +13,11 @@
     <parameter name="browser" value="chrome"/>
      
     <classes>
-      <class name="testCases.TC001_AccountRegistrationTest"/> 
-      <class name="testCases.TC002_LoginTest"/> 
-      <!--<class name="testCases.TC003_LoginDDT"/>-->
+        <class name="testCases.TC_025_RegistrationTwentyFiveScenarios"/>
+       <!-- <class name="testCases.TC_ComprehensiveRegistrationTest"/>-->
+
+        <!--<class name="testCases.TC001_AccountRegistrationTest"/> -->
+     <!-- <class name="testCases.TC002_LoginTest"/> -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

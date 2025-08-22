@@ -103,9 +103,7 @@ public String getConfirmationMsg() {
 	try {
 		return (msgConfirmation.getText());
 	} catch (Exception e) {
-		return (e.getMessage());
-
+		return "";
 	}
-
 }
 }

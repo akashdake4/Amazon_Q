@@ -14,19 +14,24 @@
     <parameter name="browser" value="chrome"/>
      
     <classes>
-      <class name="testCases.TC001_AccountRegistrationTest"/>
+      <!--<class name="testCases.TC001_AccountRegistrationTest"/>-->
+        <class name="testCases.TC_025_RegistrationTwentyFiveScenarios"/>
+
     </classes>
   </test> <!-- Test -->
   
-  
-  <test name="edgetest">
-    <parameter name="os" value="Windows"/>
-    <parameter name="browser" value="edge"/>
-     
-    <classes>
-      <class name="testCases.TC001_AccountRegistrationTest"/>
-    </classes>
-  </test> <!-- Test -->
+
+<!--  <test name="edgetest">-->
+<!--    <parameter name="os" value="Windows"/>-->
+<!--    <parameter name="browser" value="edge"/>-->
+<!--     -->
+<!--    <classes>-->
+<!--      &lt;!&ndash;<class name="testCases.TC001_AccountRegistrationTest"/>&ndash;&gt;-->
+<!--        <class name="testCases.TC_025_RegistrationTwentyFiveScenarios"/>-->
+
+<!--    </classes>-->
+<!--  </test> &lt;!&ndash; Test &ndash;&gt;-->
+
   
   
   <test name="firefoxtest">
@@ -34,10 +39,10 @@
     <parameter name="browser" value="firefox"/>
      
     <classes>
-      <class name="testCases.TC001_AccountRegistrationTest"/>
+      <!--<class name="testCases.TC001_AccountRegistrationTest"/>-->
+        <class name="testCases.TC_025_RegistrationTwentyFiveScenarios"/>
+
     </classes>
   </test> <!-- Test -->
-  
-  
-  
+
 </suite> <!-- Suite -->

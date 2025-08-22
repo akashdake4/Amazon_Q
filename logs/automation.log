@@ -1,27 +1,662 @@
-2024-05-09 06:50:17 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
-2024-05-09 06:50:17 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
-2024-05-09 06:50:18 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register Link.. 
-2024-05-09 06:50:18 INFO  TC001_AccountRegistrationTest:28 - Providing customer details...
-2024-05-09 06:50:19 INFO  TC001_AccountRegistrationTest:42 - Validating expected message..
-2024-05-09 06:50:19 INFO  TC001_AccountRegistrationTest:47 - Test passed
-2024-05-09 06:50:19 INFO  TC001_AccountRegistrationTest:56 - ***** Finished TC001_AccountRegistrationTest *****
-2024-05-09 06:50:23 INFO  TC002_LoginTest:16 - ****** Startign TC_002_LoginTest *****
-2024-05-09 06:50:25 INFO  TC002_LoginTest:41 - ****** Finished TC_002_LoginTest *****
-2024-05-09 07:07:24 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
-2024-05-09 07:07:24 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
-2024-05-09 07:07:24 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register Link.. 
-2024-05-09 07:07:24 INFO  TC001_AccountRegistrationTest:28 - Providing customer details...
-2024-05-09 07:07:26 INFO  TC001_AccountRegistrationTest:42 - Validating expected message..
-2024-05-09 07:07:26 INFO  TC001_AccountRegistrationTest:47 - Test passed
-2024-05-09 07:07:26 INFO  TC001_AccountRegistrationTest:56 - ***** Finished TC001_AccountRegistrationTest *****
-2024-05-09 07:07:30 INFO  TC002_LoginTest:16 - ****** Startign TC_002_LoginTest *****
-2024-05-09 07:07:32 INFO  TC002_LoginTest:41 - ****** Finished TC_002_LoginTest *****
-2024-05-09 07:10:46 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
-2024-05-09 07:10:46 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
-2024-05-09 07:10:47 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register Link.. 
-2024-05-09 07:10:47 INFO  TC001_AccountRegistrationTest:28 - Providing customer details...
-2024-05-09 07:10:48 INFO  TC001_AccountRegistrationTest:42 - Validating expected message..
-2024-05-09 07:10:48 INFO  TC001_AccountRegistrationTest:47 - Test passed
-2024-05-09 07:10:48 INFO  TC001_AccountRegistrationTest:56 - ***** Finished TC001_AccountRegistrationTest *****
-2024-05-09 07:10:53 INFO  TC002_LoginTest:16 - ****** Startign TC_002_LoginTest *****
-2024-05-09 07:10:55 INFO  TC002_LoginTest:41 - ****** Finished TC_002_LoginTest *****
+2025-08-22 10:52:28 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Unity_0070\Downloads\OpencartV121-master\Amazon_Q\master.xml
+
+2025-08-22 10:52:43 INFO  TC_025_RegistrationTwentyFiveScenarios:18 - ***** Starting TC_025_RegistrationTwentyFiveScenarios *****
+2025-08-22 10:52:43 INFO  TC_025_RegistrationTwentyFiveScenarios:19 - Test Scenario: Fallback Test Data
+2025-08-22 10:52:43 INFO  TC_025_RegistrationTwentyFiveScenarios:28 - Clicked on MyAccount Link
+2025-08-22 10:52:45 INFO  TC_025_RegistrationTwentyFiveScenarios:31 - Clicked on Register Link
+2025-08-22 10:52:45 INFO  TC_025_RegistrationTwentyFiveScenarios:36 - Providing customer details...
+2025-08-22 10:52:46 INFO  TC_025_RegistrationTwentyFiveScenarios:49 - Clicked on Continue button
+2025-08-22 10:52:47 INFO  TC_025_RegistrationTwentyFiveScenarios:53 - Confirmation message: Your Account Has Been Created!
+2025-08-22 10:52:47 INFO  TC_025_RegistrationTwentyFiveScenarios:59 - Test Passed: Fallback Test Data
+2025-08-22 10:52:47 INFO  TC_025_RegistrationTwentyFiveScenarios:86 - ***** Finished TC_025_RegistrationTwentyFiveScenarios *****
+2025-08-22 10:52:56 INFO  TC_025_RegistrationTwentyFiveScenarios:181 - ***** Starting Edge Case Registration Test *****
+2025-08-22 10:52:56 INFO  TC_025_RegistrationTwentyFiveScenarios:182 - Test Scenario: Minimum Valid Length
+2025-08-22 10:52:59 ERROR TC_025_RegistrationTwentyFiveScenarios:217 - Edge Case Test Failed: Minimum Valid Length - stale element reference: stale element not found
+  (Session info: chrome=139.0.7258.129)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2006047118ee5d58f41dbff373048346, clickElement {id=f.F934E71CFCF0E069F3670277936F8922.d.887EFDB5D76F95F64F88204A1EE0F613.e.127}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\UNITY_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55518}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55518/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2006047118ee5d58f41dbff373048346)] -> xpath: //a[normalize-space()='Register']]
+Session ID: 2006047118ee5d58f41dbff373048346
+2025-08-22 10:53:00 INFO  TC_025_RegistrationTwentyFiveScenarios:181 - ***** Starting Edge Case Registration Test *****
+2025-08-22 10:53:00 INFO  TC_025_RegistrationTwentyFiveScenarios:182 - Test Scenario: Maximum Length Fields
+2025-08-22 10:53:12 INFO  TC_025_RegistrationTwentyFiveScenarios:181 - ***** Starting Edge Case Registration Test *****
+2025-08-22 10:53:12 INFO  TC_025_RegistrationTwentyFiveScenarios:182 - Test Scenario: Spanish Unicode
+2025-08-22 10:53:17 INFO  TC_025_RegistrationTwentyFiveScenarios:206 - Edge Case Test Passed: Spanish Unicode
+2025-08-22 10:53:17 INFO  TC_025_RegistrationTwentyFiveScenarios:181 - ***** Starting Edge Case Registration Test *****
+2025-08-22 10:53:17 INFO  TC_025_RegistrationTwentyFiveScenarios:182 - Test Scenario: Chinese Characters
+2025-08-22 10:53:22 ERROR TC_025_RegistrationTwentyFiveScenarios:217 - Edge Case Test Failed: Chinese Characters - stale element reference: stale element not found
+  (Session info: chrome=139.0.7258.129)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2006047118ee5d58f41dbff373048346, clickElement {id=f.F934E71CFCF0E069F3670277936F8922.d.3E69D5D3D1581E71C3D87E287A314BAC.e.257}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\UNITY_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55518}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55518/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2006047118ee5d58f41dbff373048346)] -> xpath: //a[normalize-space()='Register']]
+Session ID: 2006047118ee5d58f41dbff373048346
+2025-08-22 10:53:22 INFO  TC_025_RegistrationTwentyFiveScenarios:181 - ***** Starting Edge Case Registration Test *****
+2025-08-22 10:53:22 INFO  TC_025_RegistrationTwentyFiveScenarios:182 - Test Scenario: Arabic Characters
+2025-08-22 10:53:24 INFO  TC_025_RegistrationTwentyFiveScenarios:206 - Edge Case Test Passed: Arabic Characters
+2025-08-22 10:53:24 INFO  TC_025_RegistrationTwentyFiveScenarios:181 - ***** Starting Edge Case Registration Test *****
+2025-08-22 10:53:24 INFO  TC_025_RegistrationTwentyFiveScenarios:182 - Test Scenario: Cyrillic Characters
+2025-08-22 10:53:28 ERROR TC_025_RegistrationTwentyFiveScenarios:217 - Edge Case Test Failed: Cyrillic Characters - stale element reference: stale element not found
+  (Session info: chrome=139.0.7258.129)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2006047118ee5d58f41dbff373048346, clickElement {id=f.F934E71CFCF0E069F3670277936F8922.d.8FC47A7B9883477FE346F40050B371A8.e.314}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\UNITY_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55518}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55518/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2006047118ee5d58f41dbff373048346)] -> xpath: //a[normalize-space()='Register']]
+Session ID: 2006047118ee5d58f41dbff373048346
+2025-08-22 10:53:29 INFO  TC_025_RegistrationTwentyFiveScenarios:181 - ***** Starting Edge Case Registration Test *****
+2025-08-22 10:53:29 INFO  TC_025_RegistrationTwentyFiveScenarios:182 - Test Scenario: Special Latin Characters
+2025-08-22 10:53:31 INFO  TC_025_RegistrationTwentyFiveScenarios:206 - Edge Case Test Passed: Special Latin Characters
+2025-08-22 10:53:31 INFO  TC_025_RegistrationTwentyFiveScenarios:181 - ***** Starting Edge Case Registration Test *****
+2025-08-22 10:53:31 INFO  TC_025_RegistrationTwentyFiveScenarios:182 - Test Scenario: Nordic Characters
+2025-08-22 10:53:37 ERROR TC_025_RegistrationTwentyFiveScenarios:217 - Edge Case Test Failed: Nordic Characters - stale element reference: stale element not found
+  (Session info: chrome=139.0.7258.129)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2006047118ee5d58f41dbff373048346, clickElement {id=f.F934E71CFCF0E069F3670277936F8922.d.389CDBFA5E662AED7A17548AFEADB297.e.372}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\UNITY_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55518}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55518/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2006047118ee5d58f41dbff373048346)] -> xpath: //a[normalize-space()='Register']]
+Session ID: 2006047118ee5d58f41dbff373048346
+2025-08-22 10:53:37 INFO  TC_025_RegistrationTwentyFiveScenarios:181 - ***** Starting Edge Case Registration Test *****
+2025-08-22 10:53:37 INFO  TC_025_RegistrationTwentyFiveScenarios:182 - Test Scenario: Email with Plus Sign
+2025-08-22 10:53:42 INFO  TC_025_RegistrationTwentyFiveScenarios:206 - Edge Case Test Passed: Email with Plus Sign
+2025-08-22 10:53:42 INFO  TC_025_RegistrationTwentyFiveScenarios:181 - ***** Starting Edge Case Registration Test *****
+2025-08-22 10:53:42 INFO  TC_025_RegistrationTwentyFiveScenarios:182 - Test Scenario: Email with Dot
+2025-08-22 10:57:38 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Unity_0070\Downloads\OpencartV121-master\Amazon_Q\master.xml
+
+2025-08-22 10:57:44 INFO  TC_025_RegistrationTwentyFiveScenarios:18 - ***** Starting TC_025_RegistrationTwentyFiveScenarios *****
+2025-08-22 10:57:44 INFO  TC_025_RegistrationTwentyFiveScenarios:19 - Test Scenario: Fallback Test Data
+2025-08-22 10:57:45 INFO  TC_025_RegistrationTwentyFiveScenarios:28 - Clicked on MyAccount Link
+2025-08-22 10:57:45 INFO  TC_025_RegistrationTwentyFiveScenarios:31 - Clicked on Register Link
+2025-08-22 10:57:45 INFO  TC_025_RegistrationTwentyFiveScenarios:36 - Providing customer details...
+2025-08-22 10:57:47 INFO  TC_025_RegistrationTwentyFiveScenarios:49 - Clicked on Continue button
+2025-08-22 10:57:47 INFO  TC_025_RegistrationTwentyFiveScenarios:53 - Confirmation message: Your Account Has Been Created!
+2025-08-22 10:57:47 INFO  TC_025_RegistrationTwentyFiveScenarios:59 - Test Passed: Fallback Test Data
+2025-08-22 10:57:47 INFO  TC_025_RegistrationTwentyFiveScenarios:86 - ***** Finished TC_025_RegistrationTwentyFiveScenarios *****
+2025-08-22 10:57:55 INFO  TC_025_RegistrationTwentyFiveScenarios:181 - ***** Starting Edge Case Registration Test *****
+2025-08-22 10:57:55 INFO  TC_025_RegistrationTwentyFiveScenarios:182 - Test Scenario: Minimum Valid Length
+2025-08-22 10:57:59 INFO  TC_025_RegistrationTwentyFiveScenarios:206 - Edge Case Test Passed: Minimum Valid Length
+2025-08-22 10:57:59 INFO  TC_025_RegistrationTwentyFiveScenarios:181 - ***** Starting Edge Case Registration Test *****
+2025-08-22 10:57:59 INFO  TC_025_RegistrationTwentyFiveScenarios:182 - Test Scenario: Maximum Length Fields
+2025-08-22 10:58:04 ERROR TC_025_RegistrationTwentyFiveScenarios:217 - Edge Case Test Failed: Maximum Length Fields - stale element reference: stale element not found
+  (Session info: chrome=139.0.7258.129)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a75471f3882a736dc0bff0081b5aab7c, clickElement {id=f.54CDB652848B8D5A787760349430F81D.d.37ECCA02A3E73B2A0D57FEA48ED22C50.e.188}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\UNITY_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55764/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a75471f3882a736dc0bff0081b5aab7c)] -> xpath: //a[normalize-space()='Register']]
+Session ID: a75471f3882a736dc0bff0081b5aab7c
+2025-08-22 10:58:04 INFO  TC_025_RegistrationTwentyFiveScenarios:181 - ***** Starting Edge Case Registration Test *****
+2025-08-22 10:58:04 INFO  TC_025_RegistrationTwentyFiveScenarios:182 - Test Scenario: Spanish Unicode
+2025-08-22 10:58:07 INFO  TC_025_RegistrationTwentyFiveScenarios:206 - Edge Case Test Passed: Spanish Unicode
+2025-08-22 10:58:07 INFO  TC_025_RegistrationTwentyFiveScenarios:181 - ***** Starting Edge Case Registration Test *****
+2025-08-22 10:58:07 INFO  TC_025_RegistrationTwentyFiveScenarios:182 - Test Scenario: Chinese Characters
+2025-08-22 10:58:11 ERROR TC_025_RegistrationTwentyFiveScenarios:217 - Edge Case Test Failed: Chinese Characters - stale element reference: stale element not found
+  (Session info: chrome=139.0.7258.129)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a75471f3882a736dc0bff0081b5aab7c, clickElement {id=f.54CDB652848B8D5A787760349430F81D.d.BDB7D047BD66CCA772C58644E5D168FC.e.247}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\UNITY_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55764/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a75471f3882a736dc0bff0081b5aab7c)] -> xpath: //a[normalize-space()='Register']]
+Session ID: a75471f3882a736dc0bff0081b5aab7c
+2025-08-22 10:58:11 INFO  TC_025_RegistrationTwentyFiveScenarios:181 - ***** Starting Edge Case Registration Test *****
+2025-08-22 10:58:11 INFO  TC_025_RegistrationTwentyFiveScenarios:182 - Test Scenario: Arabic Characters
+2025-08-22 10:58:14 INFO  TC_025_RegistrationTwentyFiveScenarios:206 - Edge Case Test Passed: Arabic Characters
+2025-08-22 10:58:14 INFO  TC_025_RegistrationTwentyFiveScenarios:181 - ***** Starting Edge Case Registration Test *****
+2025-08-22 10:58:14 INFO  TC_025_RegistrationTwentyFiveScenarios:182 - Test Scenario: Cyrillic Characters
+2025-08-22 10:58:21 ERROR TC_025_RegistrationTwentyFiveScenarios:217 - Edge Case Test Failed: Cyrillic Characters - stale element reference: stale element not found
+  (Session info: chrome=139.0.7258.129)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a75471f3882a736dc0bff0081b5aab7c, clickElement {id=f.54CDB652848B8D5A787760349430F81D.d.3660A45296771EDADF708234D5BF692D.e.305}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\UNITY_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55764/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a75471f3882a736dc0bff0081b5aab7c)] -> xpath: //a[normalize-space()='Register']]
+Session ID: a75471f3882a736dc0bff0081b5aab7c
+2025-08-22 10:58:21 INFO  TC_025_RegistrationTwentyFiveScenarios:181 - ***** Starting Edge Case Registration Test *****
+2025-08-22 10:58:21 INFO  TC_025_RegistrationTwentyFiveScenarios:182 - Test Scenario: Special Latin Characters
+2025-08-22 10:58:24 INFO  TC_025_RegistrationTwentyFiveScenarios:206 - Edge Case Test Passed: Special Latin Characters
+2025-08-22 10:58:24 INFO  TC_025_RegistrationTwentyFiveScenarios:181 - ***** Starting Edge Case Registration Test *****
+2025-08-22 10:58:24 INFO  TC_025_RegistrationTwentyFiveScenarios:182 - Test Scenario: Nordic Characters
+2025-08-22 10:58:29 ERROR TC_025_RegistrationTwentyFiveScenarios:217 - Edge Case Test Failed: Nordic Characters - stale element reference: stale element not found
+  (Session info: chrome=139.0.7258.129)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a75471f3882a736dc0bff0081b5aab7c, clickElement {id=f.54CDB652848B8D5A787760349430F81D.d.A4224D36C614156F8B18F647D0096DE1.e.365}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\UNITY_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55764/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a75471f3882a736dc0bff0081b5aab7c)] -> xpath: //a[normalize-space()='Register']]
+Session ID: a75471f3882a736dc0bff0081b5aab7c
+2025-08-22 10:58:29 INFO  TC_025_RegistrationTwentyFiveScenarios:181 - ***** Starting Edge Case Registration Test *****
+2025-08-22 10:58:29 INFO  TC_025_RegistrationTwentyFiveScenarios:182 - Test Scenario: Email with Plus Sign
+2025-08-22 10:58:32 INFO  TC_025_RegistrationTwentyFiveScenarios:206 - Edge Case Test Passed: Email with Plus Sign
+2025-08-22 10:58:32 INFO  TC_025_RegistrationTwentyFiveScenarios:181 - ***** Starting Edge Case Registration Test *****
+2025-08-22 10:58:32 INFO  TC_025_RegistrationTwentyFiveScenarios:182 - Test Scenario: Email with Dot
+2025-08-22 10:58:37 ERROR TC_025_RegistrationTwentyFiveScenarios:217 - Edge Case Test Failed: Email with Dot - stale element reference: stale element not found
+  (Session info: chrome=139.0.7258.129)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a75471f3882a736dc0bff0081b5aab7c, clickElement {id=f.54CDB652848B8D5A787760349430F81D.d.E94241B2C428AEC751DC2D92584E62B7.e.426}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\UNITY_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55764/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a75471f3882a736dc0bff0081b5aab7c)] -> xpath: //a[normalize-space()='Register']]
+Session ID: a75471f3882a736dc0bff0081b5aab7c
+2025-08-22 10:58:37 INFO  TC_025_RegistrationTwentyFiveScenarios:181 - ***** Starting Edge Case Registration Test *****
+2025-08-22 10:58:37 INFO  TC_025_RegistrationTwentyFiveScenarios:182 - Test Scenario: Email with Underscore
+2025-08-22 10:58:40 INFO  TC_025_RegistrationTwentyFiveScenarios:206 - Edge Case Test Passed: Email with Underscore
+2025-08-22 10:58:40 INFO  TC_025_RegistrationTwentyFiveScenarios:181 - ***** Starting Edge Case Registration Test *****
+2025-08-22 10:58:40 INFO  TC_025_RegistrationTwentyFiveScenarios:182 - Test Scenario: Email with Hyphen
+2025-08-22 10:58:44 ERROR TC_025_RegistrationTwentyFiveScenarios:217 - Edge Case Test Failed: Email with Hyphen - stale element reference: stale element not found
+  (Session info: chrome=139.0.7258.129)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a75471f3882a736dc0bff0081b5aab7c, clickElement {id=f.54CDB652848B8D5A787760349430F81D.d.AAC18BBBB96363AABC6B0D6F8B9C04D3.e.484}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\UNITY_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55764/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a75471f3882a736dc0bff0081b5aab7c)] -> xpath: //a[normalize-space()='Register']]
+Session ID: a75471f3882a736dc0bff0081b5aab7c
+2025-08-22 10:58:44 INFO  TC_025_RegistrationTwentyFiveScenarios:181 - ***** Starting Edge Case Registration Test *****
+2025-08-22 10:58:44 INFO  TC_025_RegistrationTwentyFiveScenarios:182 - Test Scenario: Email Starting with Numbers
+2025-08-22 10:58:47 INFO  TC_025_RegistrationTwentyFiveScenarios:206 - Edge Case Test Passed: Email Starting with Numbers
+2025-08-22 10:58:47 INFO  TC_025_RegistrationTwentyFiveScenarios:181 - ***** Starting Edge Case Registration Test *****
+2025-08-22 10:58:47 INFO  TC_025_RegistrationTwentyFiveScenarios:182 - Test Scenario: Shortest Valid Email
+2025-08-22 10:58:51 ERROR TC_025_RegistrationTwentyFiveScenarios:217 - Edge Case Test Failed: Shortest Valid Email - stale element reference: stale element not found
+  (Session info: chrome=139.0.7258.129)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a75471f3882a736dc0bff0081b5aab7c, clickElement {id=f.54CDB652848B8D5A787760349430F81D.d.546FFE3CC7FFE8F7C97842518DF90AAE.e.545}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\UNITY_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55764/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a75471f3882a736dc0bff0081b5aab7c)] -> xpath: //a[normalize-space()='Register']]
+Session ID: a75471f3882a736dc0bff0081b5aab7c
+2025-08-22 10:58:51 INFO  TC_025_RegistrationTwentyFiveScenarios:181 - ***** Starting Edge Case Registration Test *****
+2025-08-22 10:58:51 INFO  TC_025_RegistrationTwentyFiveScenarios:182 - Test Scenario: All Uppercase
+2025-08-22 10:58:53 INFO  TC_025_RegistrationTwentyFiveScenarios:206 - Edge Case Test Passed: All Uppercase
+2025-08-22 10:58:53 INFO  TC_025_RegistrationTwentyFiveScenarios:181 - ***** Starting Edge Case Registration Test *****
+2025-08-22 10:58:53 INFO  TC_025_RegistrationTwentyFiveScenarios:182 - Test Scenario: All Lowercase
+2025-08-22 10:58:57 ERROR TC_025_RegistrationTwentyFiveScenarios:217 - Edge Case Test Failed: All Lowercase - stale element reference: stale element not found
+  (Session info: chrome=139.0.7258.129)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a75471f3882a736dc0bff0081b5aab7c, clickElement {id=f.54CDB652848B8D5A787760349430F81D.d.668481DA7B8E32F2EBB8D6067E97A5D4.e.604}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\UNITY_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55764/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a75471f3882a736dc0bff0081b5aab7c)] -> xpath: //a[normalize-space()='Register']]
+Session ID: a75471f3882a736dc0bff0081b5aab7c
+2025-08-22 10:58:57 INFO  TC_025_RegistrationTwentyFiveScenarios:181 - ***** Starting Edge Case Registration Test *****
+2025-08-22 10:58:57 INFO  TC_025_RegistrationTwentyFiveScenarios:182 - Test Scenario: Mixed Case
+2025-08-22 10:59:00 INFO  TC_025_RegistrationTwentyFiveScenarios:206 - Edge Case Test Passed: Mixed Case
+2025-08-22 10:59:00 INFO  TC_025_RegistrationTwentyFiveScenarios:181 - ***** Starting Edge Case Registration Test *****
+2025-08-22 10:59:00 INFO  TC_025_RegistrationTwentyFiveScenarios:182 - Test Scenario: Numeric Names
+2025-08-22 10:59:04 ERROR TC_025_RegistrationTwentyFiveScenarios:217 - Edge Case Test Failed: Numeric Names - stale element reference: stale element not found
+  (Session info: chrome=139.0.7258.129)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a75471f3882a736dc0bff0081b5aab7c, clickElement {id=f.54CDB652848B8D5A787760349430F81D.d.38BEEE84DDDED39FCFBF2DFB39812994.e.664}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\UNITY_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55764/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a75471f3882a736dc0bff0081b5aab7c)] -> xpath: //a[normalize-space()='Register']]
+Session ID: a75471f3882a736dc0bff0081b5aab7c
+2025-08-22 10:59:05 INFO  TC_025_RegistrationTwentyFiveScenarios:181 - ***** Starting Edge Case Registration Test *****
+2025-08-22 10:59:05 INFO  TC_025_RegistrationTwentyFiveScenarios:182 - Test Scenario: Zero Names
+2025-08-22 10:59:07 INFO  TC_025_RegistrationTwentyFiveScenarios:206 - Edge Case Test Passed: Zero Names
+2025-08-22 10:59:07 INFO  TC_025_RegistrationTwentyFiveScenarios:181 - ***** Starting Edge Case Registration Test *****
+2025-08-22 10:59:07 INFO  TC_025_RegistrationTwentyFiveScenarios:182 - Test Scenario: Single Digit Names
+2025-08-22 10:59:11 ERROR TC_025_RegistrationTwentyFiveScenarios:217 - Edge Case Test Failed: Single Digit Names - stale element reference: stale element not found
+  (Session info: chrome=139.0.7258.129)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a75471f3882a736dc0bff0081b5aab7c, clickElement {id=f.54CDB652848B8D5A787760349430F81D.d.2BCAF0ABE681DB0FC2E05487BA42056B.e.722}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\UNITY_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55764/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a75471f3882a736dc0bff0081b5aab7c)] -> xpath: //a[normalize-space()='Register']]
+Session ID: a75471f3882a736dc0bff0081b5aab7c
+2025-08-22 10:59:11 INFO  TC_025_RegistrationTwentyFiveScenarios:181 - ***** Starting Edge Case Registration Test *****
+2025-08-22 10:59:11 INFO  TC_025_RegistrationTwentyFiveScenarios:182 - Test Scenario: All Zeros Phone
+2025-08-22 10:59:14 INFO  TC_025_RegistrationTwentyFiveScenarios:206 - Edge Case Test Passed: All Zeros Phone
+2025-08-22 10:59:14 INFO  TC_025_RegistrationTwentyFiveScenarios:181 - ***** Starting Edge Case Registration Test *****
+2025-08-22 10:59:14 INFO  TC_025_RegistrationTwentyFiveScenarios:182 - Test Scenario: All Nines Phone
+2025-08-22 10:59:18 ERROR TC_025_RegistrationTwentyFiveScenarios:217 - Edge Case Test Failed: All Nines Phone - stale element reference: stale element not found
+  (Session info: chrome=139.0.7258.129)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a75471f3882a736dc0bff0081b5aab7c, clickElement {id=f.54CDB652848B8D5A787760349430F81D.d.E4842AB0C61AC4430C8766E0EE1AA51E.e.782}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\UNITY_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55764/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a75471f3882a736dc0bff0081b5aab7c)] -> xpath: //a[normalize-space()='Register']]
+Session ID: a75471f3882a736dc0bff0081b5aab7c
+2025-08-22 10:59:19 INFO  TC_025_RegistrationTwentyFiveScenarios:181 - ***** Starting Edge Case Registration Test *****
+2025-08-22 10:59:19 INFO  TC_025_RegistrationTwentyFiveScenarios:182 - Test Scenario: Starting with 1
+2025-08-22 10:59:21 INFO  TC_025_RegistrationTwentyFiveScenarios:206 - Edge Case Test Passed: Starting with 1
+2025-08-22 10:59:21 INFO  TC_025_RegistrationTwentyFiveScenarios:181 - ***** Starting Edge Case Registration Test *****
+2025-08-22 10:59:21 INFO  TC_025_RegistrationTwentyFiveScenarios:182 - Test Scenario: Sequential Numbers
+2025-08-22 10:59:25 ERROR TC_025_RegistrationTwentyFiveScenarios:217 - Edge Case Test Failed: Sequential Numbers - stale element reference: stale element not found
+  (Session info: chrome=139.0.7258.129)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a75471f3882a736dc0bff0081b5aab7c, clickElement {id=f.54CDB652848B8D5A787760349430F81D.d.2FB00F1C88A4C7D69A2F4D5E3110B12A.e.842}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\UNITY_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55764/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a75471f3882a736dc0bff0081b5aab7c)] -> xpath: //a[normalize-space()='Register']]
+Session ID: a75471f3882a736dc0bff0081b5aab7c
+2025-08-22 10:59:26 INFO  TC_025_RegistrationTwentyFiveScenarios:181 - ***** Starting Edge Case Registration Test *****
+2025-08-22 10:59:26 INFO  TC_025_RegistrationTwentyFiveScenarios:182 - Test Scenario: Minimum Length Password
+2025-08-22 10:59:29 INFO  TC_025_RegistrationTwentyFiveScenarios:206 - Edge Case Test Passed: Minimum Length Password
+2025-08-22 10:59:29 INFO  TC_025_RegistrationTwentyFiveScenarios:181 - ***** Starting Edge Case Registration Test *****
+2025-08-22 10:59:29 INFO  TC_025_RegistrationTwentyFiveScenarios:182 - Test Scenario: Special Characters Password
+2025-08-22 10:59:33 ERROR TC_025_RegistrationTwentyFiveScenarios:217 - Edge Case Test Failed: Special Characters Password - stale element reference: stale element not found
+  (Session info: chrome=139.0.7258.129)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a75471f3882a736dc0bff0081b5aab7c, clickElement {id=f.54CDB652848B8D5A787760349430F81D.d.A3BF6BA8EE4FBBA00954CB12A643131E.e.902}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\UNITY_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55764/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a75471f3882a736dc0bff0081b5aab7c)] -> xpath: //a[normalize-space()='Register']]
+Session ID: a75471f3882a736dc0bff0081b5aab7c
+2025-08-22 10:59:33 INFO  TC_025_RegistrationTwentyFiveScenarios:181 - ***** Starting Edge Case Registration Test *****
+2025-08-22 10:59:33 INFO  TC_025_RegistrationTwentyFiveScenarios:182 - Test Scenario: Uppercase Password
+2025-08-22 10:59:36 INFO  TC_025_RegistrationTwentyFiveScenarios:206 - Edge Case Test Passed: Uppercase Password
+2025-08-22 10:59:36 INFO  TC_025_RegistrationTwentyFiveScenarios:181 - ***** Starting Edge Case Registration Test *****
+2025-08-22 10:59:36 INFO  TC_025_RegistrationTwentyFiveScenarios:182 - Test Scenario: Lowercase Password
+2025-08-22 10:59:40 ERROR TC_025_RegistrationTwentyFiveScenarios:217 - Edge Case Test Failed: Lowercase Password - stale element reference: stale element not found
+  (Session info: chrome=139.0.7258.129)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a75471f3882a736dc0bff0081b5aab7c, clickElement {id=f.54CDB652848B8D5A787760349430F81D.d.DD52F5E6AF50E1DEDF6F5D3C23C5201C.e.963}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\UNITY_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55764/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a75471f3882a736dc0bff0081b5aab7c)] -> xpath: //a[normalize-space()='Register']]
+Session ID: a75471f3882a736dc0bff0081b5aab7c
+2025-08-22 10:59:40 INFO  TC_025_RegistrationTwentyFiveScenarios:181 - ***** Starting Edge Case Registration Test *****
+2025-08-22 10:59:40 INFO  TC_025_RegistrationTwentyFiveScenarios:182 - Test Scenario: Mixed Password
+2025-08-22 10:59:43 INFO  TC_025_RegistrationTwentyFiveScenarios:206 - Edge Case Test Passed: Mixed Password
+2025-08-22 10:59:43 INFO  TC_025_RegistrationTwentyFiveScenarios:181 - ***** Starting Edge Case Registration Test *****
+2025-08-22 10:59:43 INFO  TC_025_RegistrationTwentyFiveScenarios:182 - Test Scenario: Single Char Domain
+2025-08-22 10:59:48 ERROR TC_025_RegistrationTwentyFiveScenarios:217 - Edge Case Test Failed: Single Char Domain - stale element reference: stale element not found
+  (Session info: chrome=139.0.7258.129)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a75471f3882a736dc0bff0081b5aab7c, clickElement {id=f.54CDB652848B8D5A787760349430F81D.d.340D948718620B92CDA7E0C49B73D4A7.e.1025}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\UNITY_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55764/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a75471f3882a736dc0bff0081b5aab7c)] -> xpath: //a[normalize-space()='Register']]
+Session ID: a75471f3882a736dc0bff0081b5aab7c
+2025-08-22 10:59:48 INFO  TC_025_RegistrationTwentyFiveScenarios:181 - ***** Starting Edge Case Registration Test *****
+2025-08-22 10:59:48 INFO  TC_025_RegistrationTwentyFiveScenarios:182 - Test Scenario: Long TLD
+2025-08-22 10:59:51 INFO  TC_025_RegistrationTwentyFiveScenarios:206 - Edge Case Test Passed: Long TLD
+2025-08-22 10:59:51 INFO  TC_025_RegistrationTwentyFiveScenarios:181 - ***** Starting Edge Case Registration Test *****
+2025-08-22 10:59:51 INFO  TC_025_RegistrationTwentyFiveScenarios:182 - Test Scenario: Multiple Subdomains
+2025-08-22 10:59:56 ERROR TC_025_RegistrationTwentyFiveScenarios:217 - Edge Case Test Failed: Multiple Subdomains - stale element reference: stale element not found
+  (Session info: chrome=139.0.7258.129)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a75471f3882a736dc0bff0081b5aab7c, clickElement {id=f.54CDB652848B8D5A787760349430F81D.d.585B7829193924CA32BB398C3ED958A4.e.1084}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\UNITY_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55764/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a75471f3882a736dc0bff0081b5aab7c)] -> xpath: //a[normalize-space()='Register']]
+Session ID: a75471f3882a736dc0bff0081b5aab7c
+2025-08-22 10:59:56 INFO  TC_025_RegistrationTwentyFiveScenarios:181 - ***** Starting Edge Case Registration Test *****
+2025-08-22 10:59:56 INFO  TC_025_RegistrationTwentyFiveScenarios:182 - Test Scenario: Hyphenated Domain
+2025-08-22 10:59:59 INFO  TC_025_RegistrationTwentyFiveScenarios:206 - Edge Case Test Passed: Hyphenated Domain
+2025-08-22 11:00:08 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:00:08 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Empty First Name
+2025-08-22 11:00:15 INFO  TC_025_RegistrationTwentyFiveScenarios:171 - Invalid Registration Test Passed: Empty First Name - Exception as expected: stale element reference: stale element not found
+  (Session info: chrome=139.0.7258.129)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a75471f3882a736dc0bff0081b5aab7c, clickElement {id=f.54CDB652848B8D5A787760349430F81D.d.A7A66E8CD1D87DEFAA80C3404C3FC84D.e.1143}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\UNITY_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55764/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a75471f3882a736dc0bff0081b5aab7c)] -> xpath: //a[normalize-space()='Register']]
+Session ID: a75471f3882a736dc0bff0081b5aab7c
+2025-08-22 11:00:15 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:00:15 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Empty Last Name
+2025-08-22 11:00:27 INFO  TC_025_RegistrationTwentyFiveScenarios:163 - Invalid Registration Test Passed: Empty Last Name - Error properly handled
+2025-08-22 11:00:27 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:00:27 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Empty Email
+2025-08-22 11:00:44 INFO  TC_025_RegistrationTwentyFiveScenarios:163 - Invalid Registration Test Passed: Empty Email - Error properly handled
+2025-08-22 11:00:44 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:00:44 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Empty Phone
+2025-08-22 11:01:02 INFO  TC_025_RegistrationTwentyFiveScenarios:163 - Invalid Registration Test Passed: Empty Phone - Error properly handled
+2025-08-22 11:01:02 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:01:02 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Empty Password
+2025-08-22 11:01:17 INFO  TC_025_RegistrationTwentyFiveScenarios:163 - Invalid Registration Test Passed: Empty Password - Error properly handled
+2025-08-22 11:01:17 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:01:17 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Empty Confirm Password
+2025-08-22 11:01:30 INFO  TC_025_RegistrationTwentyFiveScenarios:163 - Invalid Registration Test Passed: Empty Confirm Password - Error properly handled
+2025-08-22 11:01:30 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:01:30 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: No @ Symbol
+2025-08-22 11:01:42 INFO  TC_025_RegistrationTwentyFiveScenarios:163 - Invalid Registration Test Passed: No @ Symbol - Error properly handled
+2025-08-22 11:01:42 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:01:42 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Missing Username
+2025-08-22 11:01:55 INFO  TC_025_RegistrationTwentyFiveScenarios:163 - Invalid Registration Test Passed: Missing Username - Error properly handled
+2025-08-22 11:01:55 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:01:55 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Missing Domain
+2025-08-22 11:02:13 INFO  TC_025_RegistrationTwentyFiveScenarios:163 - Invalid Registration Test Passed: Missing Domain - Error properly handled
+2025-08-22 11:02:13 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:02:13 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Double @ Symbol
+2025-08-22 11:02:27 INFO  TC_025_RegistrationTwentyFiveScenarios:163 - Invalid Registration Test Passed: Double @ Symbol - Error properly handled
+2025-08-22 11:02:27 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:02:27 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Missing Domain Name
+2025-08-22 11:02:45 INFO  TC_025_RegistrationTwentyFiveScenarios:163 - Invalid Registration Test Passed: Missing Domain Name - Error properly handled
+2025-08-22 11:02:45 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:02:45 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Missing TLD
+2025-08-22 11:03:01 INFO  TC_025_RegistrationTwentyFiveScenarios:163 - Invalid Registration Test Passed: Missing TLD - Error properly handled
+2025-08-22 11:03:01 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:03:01 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Double Dot in Domain
+2025-08-22 11:03:13 INFO  TC_025_RegistrationTwentyFiveScenarios:163 - Invalid Registration Test Passed: Double Dot in Domain - Error properly handled
+2025-08-22 11:03:13 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:03:13 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Dot Before @
+2025-08-22 11:03:22 ERROR TC_025_RegistrationTwentyFiveScenarios:165 - Invalid Registration Test Failed: Dot Before @ - Registration should have failed
+2025-08-22 11:03:23 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:03:23 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Starting with Dot
+2025-08-22 11:03:33 INFO  TC_025_RegistrationTwentyFiveScenarios:171 - Invalid Registration Test Passed: Starting with Dot - Exception as expected: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Register']"}
+  (Session info: chrome=139.0.7258.129)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a75471f3882a736dc0bff0081b5aab7c, findElement {value=//a[normalize-space()='Register'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\UNITY_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55764/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a75471f3882a736dc0bff0081b5aab7c
+2025-08-22 11:03:33 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:03:33 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Consecutive Dots
+2025-08-22 11:03:44 INFO  TC_025_RegistrationTwentyFiveScenarios:171 - Invalid Registration Test Passed: Consecutive Dots - Exception as expected: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Register']"}
+  (Session info: chrome=139.0.7258.129)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a75471f3882a736dc0bff0081b5aab7c, findElement {value=//a[normalize-space()='Register'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\UNITY_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55764/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a75471f3882a736dc0bff0081b5aab7c
+2025-08-22 11:03:44 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:03:44 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Comma Instead of Dot
+2025-08-22 11:03:55 INFO  TC_025_RegistrationTwentyFiveScenarios:163 - Invalid Registration Test Passed: Comma Instead of Dot - Error properly handled
+2025-08-22 11:03:55 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:03:55 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Space Instead of @
+2025-08-22 11:04:09 INFO  TC_025_RegistrationTwentyFiveScenarios:163 - Invalid Registration Test Passed: Space Instead of @ - Error properly handled
+2025-08-22 11:04:09 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:04:09 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Space in Domain
+2025-08-22 11:04:21 INFO  TC_025_RegistrationTwentyFiveScenarios:163 - Invalid Registration Test Passed: Space in Domain - Error properly handled
+2025-08-22 11:04:21 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:04:21 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Only @ Symbol
+2025-08-22 11:04:37 INFO  TC_025_RegistrationTwentyFiveScenarios:163 - Invalid Registration Test Passed: Only @ Symbol - Error properly handled
+2025-08-22 11:04:37 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:04:37 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Hyphen at Start of Domain
+2025-08-22 11:04:48 INFO  TC_025_RegistrationTwentyFiveScenarios:163 - Invalid Registration Test Passed: Hyphen at Start of Domain - Error properly handled
+2025-08-22 11:04:48 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:04:48 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Hyphen at End of Domain
+2025-08-22 11:05:00 INFO  TC_025_RegistrationTwentyFiveScenarios:163 - Invalid Registration Test Passed: Hyphen at End of Domain - Error properly handled
+2025-08-22 11:05:00 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:05:00 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Single Char TLD
+2025-08-22 11:05:07 ERROR TC_025_RegistrationTwentyFiveScenarios:165 - Invalid Registration Test Failed: Single Char TLD - Registration should have failed
+2025-08-22 11:05:07 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:05:07 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Too Long TLD
+2025-08-22 11:05:13 INFO  TC_025_RegistrationTwentyFiveScenarios:171 - Invalid Registration Test Passed: Too Long TLD - Exception as expected: stale element reference: stale element not found
+  (Session info: chrome=139.0.7258.129)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a75471f3882a736dc0bff0081b5aab7c, clickElement {id=f.54CDB652848B8D5A787760349430F81D.d.553FAEB87018E2DF4407C70A640AD674.e.2145}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\UNITY_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55764/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a75471f3882a736dc0bff0081b5aab7c)] -> xpath: //a[normalize-space()='Register']]
+Session ID: a75471f3882a736dc0bff0081b5aab7c
+2025-08-22 11:05:13 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:05:13 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Too Short Phone
+2025-08-22 11:05:16 ERROR TC_025_RegistrationTwentyFiveScenarios:165 - Invalid Registration Test Failed: Too Short Phone - Registration should have failed
+2025-08-22 11:05:16 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:05:16 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Too Long Phone
+2025-08-22 11:05:21 INFO  TC_025_RegistrationTwentyFiveScenarios:171 - Invalid Registration Test Passed: Too Long Phone - Exception as expected: stale element reference: stale element not found
+  (Session info: chrome=139.0.7258.129)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a75471f3882a736dc0bff0081b5aab7c, clickElement {id=f.54CDB652848B8D5A787760349430F81D.d.0AF7A7F45B8861A6799BD6767620D314.e.2204}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\UNITY_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55764/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a75471f3882a736dc0bff0081b5aab7c)] -> xpath: //a[normalize-space()='Register']]
+Session ID: a75471f3882a736dc0bff0081b5aab7c
+2025-08-22 11:05:21 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:05:21 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Alphabetic Phone
+2025-08-22 11:05:24 ERROR TC_025_RegistrationTwentyFiveScenarios:165 - Invalid Registration Test Failed: Alphabetic Phone - Registration should have failed
+2025-08-22 11:05:24 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:05:24 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Phone with Dashes
+2025-08-22 11:05:34 INFO  TC_025_RegistrationTwentyFiveScenarios:171 - Invalid Registration Test Passed: Phone with Dashes - Exception as expected: stale element reference: stale element not found
+  (Session info: chrome=139.0.7258.129)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a75471f3882a736dc0bff0081b5aab7c, clickElement {id=f.54CDB652848B8D5A787760349430F81D.d.8DEA26F616D1BDDFD13E10480C490AB3.e.2264}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\UNITY_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55764/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a75471f3882a736dc0bff0081b5aab7c)] -> xpath: //a[normalize-space()='Register']]
+Session ID: a75471f3882a736dc0bff0081b5aab7c
+2025-08-22 11:05:34 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:05:34 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Phone with Brackets
+2025-08-22 11:05:40 ERROR TC_025_RegistrationTwentyFiveScenarios:165 - Invalid Registration Test Failed: Phone with Brackets - Registration should have failed
+2025-08-22 11:05:40 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:05:40 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Phone with Plus
+2025-08-22 11:05:46 INFO  TC_025_RegistrationTwentyFiveScenarios:171 - Invalid Registration Test Passed: Phone with Plus - Exception as expected: stale element reference: stale element not found
+  (Session info: chrome=139.0.7258.129)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a75471f3882a736dc0bff0081b5aab7c, clickElement {id=f.54CDB652848B8D5A787760349430F81D.d.7D6274469FA025311D979C9B624682A9.e.2324}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\UNITY_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55764/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a75471f3882a736dc0bff0081b5aab7c)] -> xpath: //a[normalize-space()='Register']]
+Session ID: a75471f3882a736dc0bff0081b5aab7c
+2025-08-22 11:05:46 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:05:46 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Phone with Spaces
+2025-08-22 11:05:48 ERROR TC_025_RegistrationTwentyFiveScenarios:165 - Invalid Registration Test Failed: Phone with Spaces - Registration should have failed
+2025-08-22 11:05:48 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:05:48 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Special Chars in Phone
+2025-08-22 11:05:59 INFO  TC_025_RegistrationTwentyFiveScenarios:171 - Invalid Registration Test Passed: Special Chars in Phone - Exception as expected: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Register']"}
+  (Session info: chrome=139.0.7258.129)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a75471f3882a736dc0bff0081b5aab7c, findElement {value=//a[normalize-space()='Register'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\UNITY_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55764/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a75471f3882a736dc0bff0081b5aab7c
+2025-08-22 11:05:59 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:05:59 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Phone with Dots
+2025-08-22 11:06:09 INFO  TC_025_RegistrationTwentyFiveScenarios:171 - Invalid Registration Test Passed: Phone with Dots - Exception as expected: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Register']"}
+  (Session info: chrome=139.0.7258.129)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a75471f3882a736dc0bff0081b5aab7c, findElement {value=//a[normalize-space()='Register'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\UNITY_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55764/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a75471f3882a736dc0bff0081b5aab7c
+2025-08-22 11:06:09 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:06:09 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Phone with Commas
+2025-08-22 11:06:15 INFO  TC_025_RegistrationTwentyFiveScenarios:171 - Invalid Registration Test Passed: Phone with Commas - Exception as expected: stale element reference: stale element not found
+  (Session info: chrome=139.0.7258.129)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a75471f3882a736dc0bff0081b5aab7c, clickElement {id=f.54CDB652848B8D5A787760349430F81D.d.4B21560B3748C0E4E5F0A8E4AFAA7DDB.e.2389}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\UNITY_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55764/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a75471f3882a736dc0bff0081b5aab7c)] -> xpath: //a[normalize-space()='Register']]
+Session ID: a75471f3882a736dc0bff0081b5aab7c
+2025-08-22 11:06:15 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:06:15 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: All Zeros Phone
+2025-08-22 11:06:17 ERROR TC_025_RegistrationTwentyFiveScenarios:165 - Invalid Registration Test Failed: All Zeros Phone - Registration should have failed
+2025-08-22 11:06:18 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:06:18 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Repeated Digits Phone
+2025-08-22 11:06:24 INFO  TC_025_RegistrationTwentyFiveScenarios:171 - Invalid Registration Test Passed: Repeated Digits Phone - Exception as expected: stale element reference: stale element not found
+  (Session info: chrome=139.0.7258.129)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a75471f3882a736dc0bff0081b5aab7c, clickElement {id=f.54CDB652848B8D5A787760349430F81D.d.9F045845E8866C82B50AFB725B08BC6F.e.2450}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\UNITY_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55764/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a75471f3882a736dc0bff0081b5aab7c)] -> xpath: //a[normalize-space()='Register']]
+Session ID: a75471f3882a736dc0bff0081b5aab7c
+2025-08-22 11:06:24 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:06:24 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Single Char Password
+2025-08-22 11:06:36 INFO  TC_025_RegistrationTwentyFiveScenarios:163 - Invalid Registration Test Passed: Single Char Password - Error properly handled
+2025-08-22 11:06:36 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:06:36 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Two Char Password
+2025-08-22 11:06:48 INFO  TC_025_RegistrationTwentyFiveScenarios:163 - Invalid Registration Test Passed: Two Char Password - Error properly handled
+2025-08-22 11:06:48 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:06:48 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Password Mismatch
+2025-08-22 11:07:02 INFO  TC_025_RegistrationTwentyFiveScenarios:163 - Invalid Registration Test Passed: Password Mismatch - Error properly handled
+2025-08-22 11:07:02 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:07:02 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Whitespace Password
+2025-08-22 11:07:13 INFO  TC_025_RegistrationTwentyFiveScenarios:163 - Invalid Registration Test Passed: Whitespace Password - Error properly handled
+2025-08-22 11:07:13 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:07:13 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Common Weak Password
+2025-08-22 11:07:19 ERROR TC_025_RegistrationTwentyFiveScenarios:165 - Invalid Registration Test Failed: Common Weak Password - Registration should have failed
+2025-08-22 11:07:19 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:07:19 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Numeric Only Password
+2025-08-22 11:07:25 INFO  TC_025_RegistrationTwentyFiveScenarios:171 - Invalid Registration Test Passed: Numeric Only Password - Exception as expected: stale element reference: stale element not found
+  (Session info: chrome=139.0.7258.129)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a75471f3882a736dc0bff0081b5aab7c, clickElement {id=f.54CDB652848B8D5A787760349430F81D.d.E6DC2DF4711558766ABAD4F095AD971B.e.2779}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\UNITY_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55764/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a75471f3882a736dc0bff0081b5aab7c)] -> xpath: //a[normalize-space()='Register']]
+Session ID: a75471f3882a736dc0bff0081b5aab7c
+2025-08-22 11:07:25 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:07:25 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Alphabetic Only Password
+2025-08-22 11:07:29 ERROR TC_025_RegistrationTwentyFiveScenarios:165 - Invalid Registration Test Failed: Alphabetic Only Password - Registration should have failed
+2025-08-22 11:07:29 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:07:29 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Case Mismatch Password
+2025-08-22 11:07:34 INFO  TC_025_RegistrationTwentyFiveScenarios:171 - Invalid Registration Test Passed: Case Mismatch Password - Exception as expected: stale element reference: stale element not found
+  (Session info: chrome=139.0.7258.129)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a75471f3882a736dc0bff0081b5aab7c, clickElement {id=f.54CDB652848B8D5A787760349430F81D.d.2BA2D053B00163C91E3329E3B499E503.e.2839}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\UNITY_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55764/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a75471f3882a736dc0bff0081b5aab7c)] -> xpath: //a[normalize-space()='Register']]
+Session ID: a75471f3882a736dc0bff0081b5aab7c
+2025-08-22 11:07:34 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:07:34 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Privacy Policy Not Agreed
+2025-08-22 11:07:47 INFO  TC_025_RegistrationTwentyFiveScenarios:163 - Invalid Registration Test Passed: Privacy Policy Not Agreed - Error properly handled
+2025-08-22 11:07:47 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:07:47 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Privacy Policy Declined
+2025-08-22 11:08:03 INFO  TC_025_RegistrationTwentyFiveScenarios:163 - Invalid Registration Test Passed: Privacy Policy Declined - Error properly handled
+2025-08-22 11:08:03 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:08:03 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: @ in First Name
+2025-08-22 11:08:09 ERROR TC_025_RegistrationTwentyFiveScenarios:165 - Invalid Registration Test Failed: @ in First Name - Registration should have failed
+2025-08-22 11:08:10 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:08:10 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: # in Last Name
+2025-08-22 11:08:17 INFO  TC_025_RegistrationTwentyFiveScenarios:171 - Invalid Registration Test Passed: # in Last Name - Exception as expected: stale element reference: stale element not found
+  (Session info: chrome=139.0.7258.129)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a75471f3882a736dc0bff0081b5aab7c, clickElement {id=f.54CDB652848B8D5A787760349430F81D.d.047A00ED6D0E1FFC0DD952EA216BD578.e.3032}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\UNITY_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55764/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a75471f3882a736dc0bff0081b5aab7c)] -> xpath: //a[normalize-space()='Register']]
+Session ID: a75471f3882a736dc0bff0081b5aab7c
+2025-08-22 11:08:17 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:08:17 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Multiple Special Chars
+2025-08-22 11:08:23 ERROR TC_025_RegistrationTwentyFiveScenarios:165 - Invalid Registration Test Failed: Multiple Special Chars - Registration should have failed
+2025-08-22 11:08:24 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:08:24 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: & and * in Names
+2025-08-22 11:08:33 INFO  TC_025_RegistrationTwentyFiveScenarios:171 - Invalid Registration Test Passed: & and * in Names - Exception as expected: stale element reference: stale element not found
+  (Session info: chrome=139.0.7258.129)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a75471f3882a736dc0bff0081b5aab7c, clickElement {id=f.54CDB652848B8D5A787760349430F81D.d.9187ABE38B0F243E7D4A4F3BDBDC491B.e.3091}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\UNITY_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55764/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a75471f3882a736dc0bff0081b5aab7c)] -> xpath: //a[normalize-space()='Register']]
+Session ID: a75471f3882a736dc0bff0081b5aab7c
+2025-08-22 11:08:33 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:08:33 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Brackets in Names
+2025-08-22 11:08:37 ERROR TC_025_RegistrationTwentyFiveScenarios:165 - Invalid Registration Test Failed: Brackets in Names - Registration should have failed
+2025-08-22 11:08:37 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:08:37 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Square Brackets in Names
+2025-08-22 11:08:46 INFO  TC_025_RegistrationTwentyFiveScenarios:171 - Invalid Registration Test Passed: Square Brackets in Names - Exception as expected: stale element reference: stale element not found
+  (Session info: chrome=139.0.7258.129)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a75471f3882a736dc0bff0081b5aab7c, clickElement {id=f.54CDB652848B8D5A787760349430F81D.d.2C216DC014938C806E67F29288A2B6FF.e.3152}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\UNITY_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55764/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a75471f3882a736dc0bff0081b5aab7c)] -> xpath: //a[normalize-space()='Register']]
+Session ID: a75471f3882a736dc0bff0081b5aab7c
+2025-08-22 11:08:46 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:08:46 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Curly Brackets in Names
+2025-08-22 11:08:53 ERROR TC_025_RegistrationTwentyFiveScenarios:165 - Invalid Registration Test Failed: Curly Brackets in Names - Registration should have failed
+2025-08-22 11:08:54 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:08:54 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Pipe and Backslash
+2025-08-22 11:08:58 INFO  TC_025_RegistrationTwentyFiveScenarios:171 - Invalid Registration Test Passed: Pipe and Backslash - Exception as expected: stale element reference: stale element not found
+  (Session info: chrome=139.0.7258.129)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a75471f3882a736dc0bff0081b5aab7c, clickElement {id=f.54CDB652848B8D5A787760349430F81D.d.AAE0F28CBD154C9150CCB86B5E919E78.e.3215}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\UNITY_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55764/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a75471f3882a736dc0bff0081b5aab7c)] -> xpath: //a[normalize-space()='Register']]
+Session ID: a75471f3882a736dc0bff0081b5aab7c
+2025-08-22 11:08:58 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:08:58 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Semicolon and Colon
+2025-08-22 11:09:01 ERROR TC_025_RegistrationTwentyFiveScenarios:165 - Invalid Registration Test Failed: Semicolon and Colon - Registration should have failed
+2025-08-22 11:09:01 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:09:01 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Quotes in Names
+2025-08-22 11:09:09 INFO  TC_025_RegistrationTwentyFiveScenarios:171 - Invalid Registration Test Passed: Quotes in Names - Exception as expected: stale element reference: stale element not found
+  (Session info: chrome=139.0.7258.129)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a75471f3882a736dc0bff0081b5aab7c, clickElement {id=f.54CDB652848B8D5A787760349430F81D.d.924EAB7AC1253BA1434E36CB0A60768F.e.3276}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.129, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\UNITY_~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55764/devtoo..., se:cdpVersion: 139.0.7258.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a75471f3882a736dc0bff0081b5aab7c)] -> xpath: //a[normalize-space()='Register']]
+Session ID: a75471f3882a736dc0bff0081b5aab7c
+2025-08-22 11:09:09 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:09:09 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: Script Tag in Name
+2025-08-22 11:09:15 ERROR TC_025_RegistrationTwentyFiveScenarios:165 - Invalid Registration Test Failed: Script Tag in Name - Registration should have failed
+2025-08-22 11:09:15 INFO  TC_025_RegistrationTwentyFiveScenarios:132 - ***** Starting Invalid Registration Test *****
+2025-08-22 11:09:15 INFO  TC_025_RegistrationTwentyFiveScenarios:133 - Test Scenario: SQL Injection Attempt

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TestResults>
+    <Record id="1">
+        <username>pavanoltraining@gmail.com</username>
+        <password>test@123</password>
+        <res>Valid</res>
+    </Record>
+    <Record id="2">
+        <username>lakshmi@yahoo.com</username>
+        <password>Laxmi</password>
+        <res>Valid</res>
+    </Record>
+    <Record id="3">
+        <username>laksh@yahoo.com</username>
+        <password>Lakshmi</password>
+        <res>Valid</res>
+    </Record>
+    <Record id="4">
+        <username>laks@yahoo.com</username>
+        <password>xyz</password>
+        <res>Invalid</res>
+    </Record>
+    <Record id="5">
+        <username>abc123@gmail.com</username>
+        <password>test@123</password>
+        <res>Valid</res>
+    </Record>
+    <Record id="6">
+        <username/>
+        <password>test@123</password>
+        <res>Invalid</res>
+    </Record>
+</TestResults>

@@ -102,31 +102,36 @@ public Properties p;
 		driver.get(p.getProperty("appURL2")); // reading url from properties file.
 		driver.manage().window().maximize();
 	}
-	
+
+    public String randomeString()
+    {
+        String generatedstring=RandomStringUtils.randomAlphabetic(5);
+        return generatedstring;
+    }
+
+    public String randomeNumber()
+    {
+        String generatednumber=RandomStringUtils.randomNumeric(10);
+        return generatednumber;
+    }
+
+    public String randomeAlphaNumberic()
+    {
+        String generatedstring=RandomStringUtils.randomAlphabetic(3);
+        String generatednumber=RandomStringUtils.randomNumeric(3);
+        return (generatedstring+"@"+generatednumber);
+    }
+
+
+
+
 	@AfterClass(groups= {"Sanity","Regression","Master"})
 	public void tearDown()
 	{
 		driver.quit();
 	}
 	
-	public String randomeString()
-	{
-		String generatedstring=RandomStringUtils.randomAlphabetic(5);
-		return generatedstring;
-	}
-	
-	public String randomeNumber()
-	{
-		String generatednumber=RandomStringUtils.randomNumeric(10);
-		return generatednumber;
-	}
-	
-	public String randomeAlphaNumberic()
-	{
-		String generatedstring=RandomStringUtils.randomAlphabetic(3);
-		String generatednumber=RandomStringUtils.randomNumeric(3);
-		return (generatedstring+"@"+generatednumber);
-	}
+
 	
 	public String captureScreen(String tname) throws IOException {
 
